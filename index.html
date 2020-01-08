@@ -38,12 +38,12 @@
 <div class="container">
     <div class="row">
         <div class="summary">
-            <div class="col s6">
+            <div class="col l6 s12">
                 <p>Most of the time I'm working as a business developer and partnerships manager at <a href="www.melewi.net">Melewi</a> - a travelling UX & UI design studio.</p>
                 <p>The rest of time I'm either running, climbing, skiing or working on a personal <a href="#">side project</a>.</p>
                 <p>I might also be up in the mountains or down by the sea, depending on the season. The point is I'm trying to stay active.</p>
             </div>
-            <div class="col s6">
+            <div class="col l6 s12">
                 <p>In the past few years, I've been semi-actively getting into web technologies, data science, writing, e-commerce and everything else I find interesting. If you have something you want to share or just want to say hi, feel free to drop a line.</p> 
                 <p>In the meantime - here's a <a href="https://open.spotify.com/user/room_n/playlist/5bpb7U0wi2OCYkVVl5xY8G?si=u3qK0TOHQ525aOxZffCuOw">playlist</a> you can listen to while you work.</p>
             </div>
@@ -72,13 +72,13 @@
 
 <div class="container">
     <div class="row">
-        <div class="col s6">
+        <div class="col s12 l6">
             <h3 class="latest">Latest <a href="https://rmanev.blot.im">blog</a> posts</h3>
             <p class="featured-post"><a href="https://rmanev.blot.im/starting-a-family-heres-why-you-should-consider-remote-work">Starting a family? Here’s why you should consider remote work.</a></p>
             <p class="featured-post"><a href="https://rmanev.blot.im/how-to-write-better-proposals-and-close-more-deals">How to write better proposals and close more deals</a></p>
             <p class="featured-post"><a href="https://rmanev.blot.im/the-day-i-lost-my-phone">The Day I Lost My Phone</a></p>
         </div>
-        <div class="col s6">
+        <div class="col s12 l6">
             <div class="contact">
                 <h2>Fancy a chat?</h2>
                 <div id="contact">
@@ -95,15 +95,45 @@
     </div>
 </div>
 
-<!-- <div class="container">
+<div class="container my-projects">
     <h2 class="projects">Recent projects</h2>
-    <div class="carousel carousel-slider">
-        <a class="carousel-item" href="https://zealous-saha-cff113.netlify.com"><img src="assets/gripindoor.png"><h2>Gripindoor - an onlide directory of indoor climbing gyms.</h2></a>
-        <a class="carousel-item" href="https://results.netlify.com"><img src="assets/results.png"><h2>Race results - visualizing running events.</h2></a>
-        <a class="carousel-item" href="https://eeart.eu"><img src="assets/eeart.png"><h2>Eastern European Art - an online gallery for EEU artists.</h2></a>
-        <a class="carousel-item" href="https://finderskeepers.cc"><img src="assets/finders.png"><h2>Finders/Keepers - a lead generation service for tech companies.</h2></a>
-      </div>
-</div> -->
+        <div class="row">
+            <div class="col s12 l6">
+                <ul class="collapsible">
+                    <li>
+                        <div class="collapsible-header" onClick="changeImage('gdr');"><h4 id='project'>Gripindoor</h4></div>
+                        <div class="collapsible-body">
+                        <span class="summary">An onlide directory of indoor climbing gyms.</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header" onClick="changeImage('res');"><h4 id='project'>Race results</h4></div>
+                        <div class="collapsible-body">
+                        <span class="summary">Visualizing running events.</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header" onClick="changeImage('eea');"><h4 id='project'>Eastern European Art</h4></div>
+                        <div class="collapsible-body">
+                        <span class="summary">An online gallery for EEU artists.</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header" onClick="changeImage('fk');"><h4 id="project">Finders/Keepers</h4></div>
+                        <div class="collapsible-body">
+                        <span class="summary">A lead generation service for tech companies.</span>
+                        </div>
+                    </li>
+                </ul>    
+            </div>
+            <div class="col s12 l6">
+                <a href="https://zealous-saha-cff113.netlify.com"><img id="project-img"></a>
+                <a href="https://results.netlify.com"><img alt id="project-img"></a>
+                <a href="https://eeart.eu"><img alt id="project-img"></a>
+                <a href="https://finderskeepers.cc"><img alt id="project-img"></a>
+            </div>
+        </div>
+</div>
 
 <script src="script.js"></script>
 

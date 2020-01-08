@@ -18,7 +18,7 @@
     left: 0;
     height: 100%;
     width: 3px;
-    background-color: rgb(75, 63, 205);
+    background-color: #1E84FB;
     transform-origin: 0 50%;
   }
   
@@ -41,6 +41,15 @@
   top: 5em;
 }
 
+@keyframes circle {
+  from{
+    transform: rotate(0deg);
+    }
+    to{
+    transform: rotate(360deg);
+    }
+}
+
 @-webkit-keyframes circle {
   from{
   -webkit-transform: rotate(0deg);
@@ -52,6 +61,7 @@
 
 .circle {
   -webkit-animation: circle 30s linear infinite;
+  animation: circle 30s linear infinite;
 }
 
 #circle-text {
@@ -81,28 +91,31 @@
   }
 
   .summary {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.1em;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2em;
     color: #000;
     opacity: 0.8;
     text-align: justify;
     line-height: 1.5em;
   }
 
+  /* .summary p {
+    margin-left: 20px;
+  } */
+
   a {
     text-decoration: none;
-    color: rgb(75, 63, 205);
+    color: #1E84FB;
   }
 
 /* FANCY DIVIDER */
 
-.editorial {
+/* .editorial {
   display: block;
   width: 100%;
   height: 60px;
   max-height: 60px;
   margin-top: 200px;
-  /* z-index:5; */
   bottom:0;
   position: absolute;
   left:0px;
@@ -111,9 +124,6 @@
 
 .parallax4 > use {
   animation: move-forever4 6s linear infinite;
-  &:nth-child(1) {
-    animation-delay: -1s;
-  }
 }
 
 @keyframes move-forever4 {
@@ -123,7 +133,7 @@
   100% {
     transform: translate(85px, 0%);
   }
-}
+} */
 /* SOCIAL MEDIA ICONS */
 
 .contact-info li {
@@ -138,7 +148,7 @@
 }
 
 .contact-info a {
-  color:rgb(75, 63, 205);
+  color:#1E84FB;
   opacity: 0.5;
   transition: 0.7s;
 }
@@ -154,16 +164,55 @@
 
 /* PROJECTS */
 
+.my-projects {
+  margin-top: 10em;
+  margin-bottom: 10em;
+}
+
+.projects {
+  margin-bottom: 1.5em;
+}
+
 .carousel {
   height: 50vw;
 }
 
-.carousel h2{
+.col h4{
   font-family: 'Montserrat', sans-serif;
-  font-size: 2.5em;
-  color: #FACAC0;
-  padding-bottom: 5em;
+  font-size: 1.5em;
+  color: #1E84FB;
+  opacity: 1;
 };
 
-/* CONTACT */
+.projects {
+  margin-top: 100px;
+}
 
+#project-img {
+  width: 120%;
+}
+
+#project-img-2 {
+  display: none;
+}
+
+#project-img-3 {
+  display: none;
+}
+
+#project-img-4 {
+  display: none;
+}
+
+.collapsible {
+  border: none;
+}
+
+.collapsible-header, .collapsible-body, .collapsible, ul.collapsible>li 
+{
+  margin: 0!important;;
+  padding: 0!important;
+  border: 0!important;
+  box-shadow: none!important;
+  background: #fff;
+}

@@ -33,16 +33,31 @@ anime.timeline({loop: true})
     opacity: 0,
     duration: 1000,
     easing: "easeOutExpo",
-    delay: 1000
+    delay: 3000
   });
 
-  // CAROUSEL
+  // PROJECTS COLLAPSIBLE
 
-  $('.carousel.carousel-slider').carousel({
-    fullWidth: true,
-    duration: 400,
-    indicators: true
+  $(document).ready(function(){
+    $('.collapsible').collapsible();
   });
 
-  
+
+var gdr = 'assets/gripindoor.png';
+var res = 'assets/results.png';
+var eea = 'assets/eeart.png';
+var fk = 'assets/finders.png';
+
+function changeImage(i)
+{
+    var img = document.getElementById("project-img");
+    switch(i)
+    {
+        case 'gdr': img.setAttribute('src', gdr); break;
+        case 'res': img.setAttribute('src', res); break;
+        case 'eea': img.setAttribute('src', eea); break;
+        case 'fk': img.setAttribute('src', fk); break;
+        default: return false;
+    }
+}
       
