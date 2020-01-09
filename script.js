@@ -2,6 +2,14 @@
 
 $(document).ready(function(){$("body").hide().fadeIn(2000);});
 
+// NIGHT MODE
+$(document).ready(function(){
+  $('.toggle').click(function(){
+      $('.toggle').toggleClass('active')
+      $('body').toggleClass('night')
+  })
+})
+
 // PAGE GREETING
 
 var textWrapper = document.querySelector('.ml11 .letters');
@@ -17,7 +25,7 @@ anime.timeline({loop: true})
   })
   .add({
     targets: '.ml11 .line',
-    translateX: [0, document.querySelector('.ml11 .letters').getBoundingClientRect().width + 10],
+    translateX: [0, document.querySelector('.ml11 .letters').getBoundingClientRect().width + 30],
     easing: "easeOutExpo",
     duration: 700,
     delay: 100
@@ -60,4 +68,5 @@ function changeImage(i)
         default: return false;
     }
 }
-      
+
+
