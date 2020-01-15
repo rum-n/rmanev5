@@ -1,6 +1,6 @@
 // FADE-IN
 
-$(document).ready(function(){$("body").hide().fadeIn(2000);});
+// $(document).ready(function(){$("body").hide().fadeIn(2000);});
 
 // NIGHT MODE
 $(document).ready(function(){

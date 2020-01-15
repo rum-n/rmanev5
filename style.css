@@ -36,9 +36,9 @@
 
 .circle {
   position: absolute;
-  opacity: 0.4;
-  right: 7em;
-  top: 5em;
+  opacity: 0.3;
+  right: 10em;
+  top: 40em;
 }
 
 @keyframes circle {
