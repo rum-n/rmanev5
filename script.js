@@ -2,6 +2,10 @@
 
 // $(document).ready(function(){$("body").hide().fadeIn(2000);});
 
+$(document).ready(function(){
+  $('.sidenav').sidenav();
+});
+
 // NIGHT MODE
 $(document).ready(function(){
   $('.toggle').click(function(){

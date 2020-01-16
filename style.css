@@ -32,6 +32,27 @@
     line-height: 1em;
   }
 
+  /* MENU */
+
+  .menu{
+    position: absolute;
+    top: 40px;
+    left: 50px; 
+    transition: 0.7;
+  }
+  
+  .sidenav{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5em;
+    padding-top: 10em;
+    width: 8em;
+    text-align: right;
+  }
+  
+  .menu:hover {
+    color: #1E84FB;  
+  }
+
   /* CIRCLE TEXT */
 
 .circle {
@@ -101,6 +122,10 @@
 
   a {
     text-decoration: none;
+    color: #000;
+  }
+
+  .summary a{
     color: #1E84FB;
   }
 
@@ -161,8 +186,9 @@
   text-decoration: underline;
 }
 
-.featured-post {
+.featured-post a{
   font-family: 'Open Sans', sans-serif;
+  color: #1E84FB;
 }
 
 /* PROJECTS */
@@ -227,6 +253,7 @@ body.night
 {
     background: #00151f;
 }
+
 .toggle
 {
     position: absolute;
@@ -269,7 +296,9 @@ body.night .content h2,
 body.night .content h3,
 body.night .content h4,
 body.night copyright,
-body.night .summary
+body.night .summary,
+body.night .sidenav a,
+body.night .menu
 {
     color: #fff;
 }
@@ -278,7 +307,8 @@ body.night .summary
 body.night .collapsible-body, 
 body.night .collapsible-header,  
 body.night .collapsible, 
-body.night ul.collapsible 
+body.night ul.collapsible,
+body.night .sidenav
 {
   background: #00151f;
 } 
