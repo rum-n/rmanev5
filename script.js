@@ -55,20 +55,22 @@ anime.timeline({loop: true})
   });
 
 
-var gdr = 'assets/gripindoor.png';
-var res = 'assets/results.png';
-var eea = 'assets/eeart.png';
-var fk = 'assets/finders.png';
+const gdr = 'assets/gripindoor.png';
+const res = 'assets/results.png';
+const eea = 'assets/eeart.png';
+const fk = 'assets/finders.png';
+const ski = 'assets/ski.png';
 
 function changeImage(i)
 {
-    var img = document.getElementById("project-img");
+    let img = document.getElementById("project-img");
     switch(i)
     {
         case 'gdr': img.setAttribute('src', gdr); break;
         case 'res': img.setAttribute('src', res); break;
         case 'eea': img.setAttribute('src', eea); break;
         case 'fk': img.setAttribute('src', fk); break;
+        case 'ski': img.setAttribute('src', ski); break;
         default: return false;
     }
 }
