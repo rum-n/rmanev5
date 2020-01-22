@@ -58,8 +58,8 @@
 .circle {
   position: absolute;
   opacity: 0.3;
-  right: 10em;
-  top: 40em;
+  right: 220px;
+  top: 550px;
 }
 
 @keyframes circle {
@@ -162,19 +162,22 @@
 
 .contact-info li {
   display: inline-block;
-  letter-spacing: 1.5em;
-  font-size: 1.5em;
-  margin-top: 20px;
+  font-size: 1.8em;
+  margin-top: 40px;
+  padding-left: 40px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .contact-info li :hover {
   opacity: 1;
+  /* text-decoration: underline; */
+  color:#1E84FB;
 }
 
 .contact-info a {
-  color:#1E84FB;
-  opacity: 0.5;
-  transition: 0.7s;
+  color:#000;
+  opacity: 0.6;
+  transition: 0.4s;
 }
 
 /* RECENT BLOG POSTS */
@@ -194,8 +197,8 @@
 /* PROJECTS */
 
 .my-projects {
-  margin-top: 10em;
-  margin-bottom: 7em;
+  margin-top: 150px;
+  margin-bottom: 50px;
 }
 
 .projects {
@@ -235,8 +238,9 @@
 }
 
 copyright {
-  margin-right: 2em;
-  margin-bottom: 1em;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  margin-top: 10px;
   float: right;
   font-family: "Montserrat", sans-serif;
   opacity: 0.5;

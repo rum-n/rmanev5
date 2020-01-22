@@ -1,12 +1,7 @@
-// FADE-IN
-
-// $(document).ready(function(){$("body").hide().fadeIn(2000);});
-
-$(document).ready(function(){
-  $('.sidenav').sidenav();
-});
+M.AutoInit();
 
 // NIGHT MODE
+
 $(document).ready(function(){
   $('.toggle').click(function(){
       $('.toggle').toggleClass('active')
@@ -16,7 +11,7 @@ $(document).ready(function(){
 
 // PAGE GREETING
 
-var textWrapper = document.querySelector('.ml11 .letters');
+let textWrapper = document.querySelector('.ml11 .letters');
 textWrapper.innerHTML = textWrapper.textContent.replace(/([^ \x80-\xFF]|\w)/g, "<span class='letter'>$&</span>");
 
 anime.timeline({loop: true})
@@ -48,12 +43,7 @@ anime.timeline({loop: true})
     delay: 3000
   });
 
-  // PROJECTS COLLAPSIBLE
-
-  $(document).ready(function(){
-    $('.collapsible').collapsible();
-  });
-
+  // PROJECTS COLLAPSIBLE PHOTO CHANGE ON CLICK
 
 const gdr = 'assets/gripindoor.png';
 const res = 'assets/results.png';
