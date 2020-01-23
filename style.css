@@ -1,3 +1,22 @@
+.header-image {
+  width: 40%;
+  background-size: contain;
+}
+
+#header-img {
+  width: 190%;
+  margin-top: 200px;
+  -webkit-box-shadow: 14px 21px 74px 5px rgba(0,0,0,0.26);
+  -moz-box-shadow: 14px 21px 74px 5px rgba(0,0,0,0.26);
+  box-shadow: 14px 21px 74px 5px rgba(0,0,0,0.26);
+}
+
+.heading {
+  margin-top: 450px;
+  margin-left: 150px;
+  font-size: 3.5em;
+}
+
 /* PAGE GREETING */
 
 .ml11 {
@@ -58,8 +77,8 @@
 .circle {
   position: absolute;
   opacity: 0.3;
-  right: 220px;
-  top: 550px;
+  left: 450px;
+  top: 200px;
 }
 
 @keyframes circle {
@@ -242,6 +261,10 @@ copyright {
   font-family: "Montserrat", sans-serif;
   opacity: 0.5;
   font-size: 0.8em;
+}
+
+hr {
+  border: 0.5px solid;
 }
 
 body

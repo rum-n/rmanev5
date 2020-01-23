@@ -50,6 +50,7 @@ const res = 'assets/results.png';
 const eea = 'assets/eeart.png';
 const fk = 'assets/finders.png';
 const ski = 'assets/ski.png';
+const firstImg = 'assets/default.png';
 
 function changeImage(i)
 {
@@ -64,5 +65,3 @@ function changeImage(i)
         default: return false;
     }
 }
-
-
