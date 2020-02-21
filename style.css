@@ -12,7 +12,7 @@
 }
 
 .heading {
-  margin-top: 450px;
+  margin-top: 510px;
   margin-left: 150px;
   font-size: 3.5em;
 }
@@ -331,8 +331,7 @@ body.night .content h3,
 body.night .content h4,
 body.night copyright,
 body.night .summary,
-body.night .sidenav a,
-body.night .menu
+body.night .col li
 {
     color: #fff;
 }
@@ -341,8 +340,7 @@ body.night .menu
 body.night .collapsible-body, 
 body.night .collapsible-header,  
 body.night .collapsible, 
-body.night ul.collapsible,
-body.night .sidenav
+body.night ul.collapsible
 {
   background: #00151f;
 } 
